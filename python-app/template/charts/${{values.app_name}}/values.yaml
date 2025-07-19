@@ -23,7 +23,7 @@ ingress:
   className: "nginx"
   annotations: {}
   hosts:
-    - host: ${{values.app_name}}-${{values.app_env}}.test.com
+    - host: ${{values.app_name}}-${{values.app_env}}.test3118.com
       paths:
         - path: /
           pathType: Prefix
