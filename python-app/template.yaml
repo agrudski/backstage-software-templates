@@ -45,6 +45,7 @@ spec:
         repoUrl: github.com?owner=agrudski-org&repo=${{parameters.component_id}}
         protectDefaultBranch: false
         repoVisibility: public
+        defaultBranch: master
 
     - id: register
       name: Register
